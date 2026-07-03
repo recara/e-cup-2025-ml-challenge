@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ml-ozon-recsys-baseline-fixed"
+version = "0.1.0"
+description = "Fixed and enhanced baseline for Ozon ML Challenge 2025"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+tqdm = "^4.66.2"
+polars = "^0.20.21"
+catboost = "^1.2.2"
+scikit-learn = "^1.4.2"
+pyarrow = "^15.0.2"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
